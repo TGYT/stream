@@ -5,8 +5,8 @@ const client = new Discord.Client();
 
 client.on("ready", () => {
 console.log('By : m7md');
-client.user.setPresence({
-  status: 'Streaming',
+client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
+  client.user.setPresence({
   game: { 
      type: 0,
      name: 'Fu*king Girls.',
