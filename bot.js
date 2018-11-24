@@ -13,7 +13,7 @@ client.user.setPresence({
      assets: {
         small_image: `512537205466726400`,
         small_text: 'Get Out Of Here.',
-        large_image: `512537205466726400`,
+        large_image: `515879640905154560`,
         large_text: `Hot.` }
 
   }
