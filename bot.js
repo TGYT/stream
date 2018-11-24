@@ -1,15 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const developers = ["279221610408312834"]
-const adminprefix = "^";
-client.on('message', message => {
-    var argresult = message.content.split(` `).slice(1).join(' ');
-      if (!developers.includes(message.author.id)) return;
-     
-
-
 client.on("ready", () => {
 console.log('By : m7md');
+client.user.setGame(argresult, "https://www.twitch.tv/M3roof");    
 client.user.setPresence({
   status: 'dnd',
   game: { 
@@ -28,12 +21,5 @@ client.user.setPresence({
   }
     });
 });
-  
-
-
-if (message.content.startsWith( 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
-      message.channel.send(`**Status You ${argresult} **`)
-}
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
