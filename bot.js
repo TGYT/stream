@@ -26,6 +26,9 @@ client.user.setPresence({
   
 
 
-
+if (message.content.startsWith( 'st')) {
+    client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
+      message.channel.send(`**Status You ${argresult} **`)
+}
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
