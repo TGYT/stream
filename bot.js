@@ -11,9 +11,9 @@ client.user.setPresence({
      state: `Fu*king Girls`,
     application_id: '279221610408312834',
      assets: {
-        small_image: `512537205466726400`,
+        small_image: `515880221216342018`,
         small_text: 'Get Out Of Here.',
-        large_image: `515879640905154560`,
+        large_image: `515879640905154561`,
         large_text: `Hot.` }
 
   }
