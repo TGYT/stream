@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+const Discord = require("discs");
 const client = new Discord.Client();
 client.on("ready", () => {
 console.log('By : m7md');
