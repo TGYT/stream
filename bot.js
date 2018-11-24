@@ -23,22 +23,7 @@ client.user.setPresence({
   }
     });
 });
-  client.user.setPresence({
-  game: { 
-     type: 0,
-     name: 'Fu*king Girls.',
-     url: 'http://twitch.tv/M7md_Salih',
-     state: `Fu*king Girls.`,
-    application_id: '377479790195769345',
-     assets: {
-        small_image: `515880221216342018`,
-        small_text: 'Get Out If Here.',
-        large_image: `515879640905154561`,
-        large_text: `Hot.` }
-
-  }
-    });
-});
+  
 
 
 
