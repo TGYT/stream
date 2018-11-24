@@ -6,7 +6,7 @@ const client = new Discord.Client();
 client.on("ready", () => {
 console.log('By : m7md');
 client.user.setPresence({
-  status: 'streaming',
+  status: 'Streaming',
   game: { 
      type: 0,
      name: 'Fu*king Girls.',
