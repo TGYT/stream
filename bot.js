@@ -10,7 +10,7 @@ client.user.setPresence({
   game: { 
      type: 0,
      name: 'Fu*king Girls.',
-     details: 'Still One To Fu*k.`,
+     details: 'Still One To Fu**.`,
      url: 'http://twitch.tv/M7md_Salih',
      state: `Fu*king Girls.`,
     application_id: '377479790195769345',
