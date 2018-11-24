@@ -24,7 +24,24 @@ client.on('message', message => {
       message.channel.send(`**Status You  ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'stream')) {
-    client.user.setGame(argresult, "https://m.twitch.tv/twitchpresents");
+    client.user.setPresence({
+  status: 'online',
+  game: { 
+     type: 0,
+     name: 'هاي يوتيوووب',
+     details: `هاي يوتيوب`,
+     url: 'https://m.twitch.tv/twitchpresents',
+     state: `هاي يوتيوب`,
+    application_id: '377479790195769345',
+     assets: {
+        small_image: `377480550207717376`,
+        small_text: 'هاي يوتيوب',
+        large_image: `377480353259978752`,
+        large_text: `هاي يوتيوب` }
+
+  }
+    });
+});
       message.channel.send(`**Status You ${argresult} **`)
 }
 });
