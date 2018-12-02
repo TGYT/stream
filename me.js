@@ -5,31 +5,30 @@ client.on('ready', () => {
 });
 
 
-const developers = ["هنا الايدي"]
-const adminprefix = "^";
+const developers = ["279221610408312834"]
+const adminprefix = "$";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
       
-  if (message.content.startsWith(adminprefix + 'ply')) {
+  if (message.content.startsWith(adminprefix + 'play')) {
     client.user.setGame(argresult);
       message.channel.send(`**Status You   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'wat')) {
+  if (message.content.startsWith(adminprefix + 'watch')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**Status You   ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'lis')) {
+  if (message.content.startsWith(adminprefix + 'listen')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**Status You  ${argresult}**`)
   } else 
-  if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/M3roof");
+  if (message.content.startsWith(adminprefix + 'stream')) {
+    client.user.setGame(argresult, "https://m.twitch.tv/twitchpresents");
       message.channel.send(`**Status You ${argresult} **`)
 }
 });
 
 
 
-
-client.login("هنا التوكن حقك");
+client.login(process.env.BOT_TOKEN);
