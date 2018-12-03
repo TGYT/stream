@@ -17,7 +17,7 @@ client.user.setPresence({
      assets: {
         small_image: `377480550207717376`,
         small_text: ' 💞',
-        large_image: `517390013714137098`,
+        large_image: `377480353259978752`,
         large_text: `سًيّحًبّك ٱلنٌٱسً يّوِمٱ مٱ` }
 
   }
